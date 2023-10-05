@@ -1,6 +1,6 @@
 x = [0, 1, 2, 3, 4];
 y = [1, 2, 5, 10, 17];
-%ggg
+
 x_interpolate = 2.5;
 
 n = length(x);
