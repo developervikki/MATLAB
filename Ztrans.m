@@ -12,6 +12,6 @@ subplot(2, 1, 1); % Create a subplot for magnitude
 freqz(double(abs(X)))% Plot the magnitude of the Z-transform
 title('Magnitude of Z-Transform');
 
-subplot(2, 1, 2); % Create a subplot for phase
-freqz(double(angle(X))); % Plot the phase of the Z-transform
+subplot(2, 1, 2); 
+freqz(double(angle(X))); 
 title('Phase of Z-Transform');
