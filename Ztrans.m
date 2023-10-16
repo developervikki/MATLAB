@@ -1,15 +1,15 @@
-% Define the discrete-time signal
-n = 0:50; % Define the range of the signal
+
+n = 0:50; 
 x = 0.8.^n; % Define the signal, e.g., x(n) = 0.8^n
 
-% Compute the Z-transform
-syms z n; % Define symbolic variables
+
+syms z n; 
 X = ztrans(x, n, z); % Compute the Z-transform of x(n)
 
-% Plot the magnitude and phase of the Z-transform
+
 figure;
-subplot(2, 1, 1); % Create a subplot for magnitude
-freqz(double(abs(X)))% Plot the magnitude of the Z-transform
+subplot(2, 1, 1);
+freqz(double(abs(X)))
 title('Magnitude of Z-Transform');
 
 subplot(2, 1, 2); 
