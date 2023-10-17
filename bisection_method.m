@@ -20,7 +20,7 @@ function quadratic_bisection()
         f_midpoint = polyval([a, b, c], midpoint);
 
         if abs(f_midpoint) < tolerance
-            fprintf('Root found: x = %f\n', midpoint);
+            fprintf('Root found: x = %f\n', midpoint); 
             return;
         end
 
