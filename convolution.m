@@ -24,3 +24,4 @@ grid on;
 title('output seq');
 xlabel('Time');
 ylabel('Amplitude');
+ 
