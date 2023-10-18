@@ -22,4 +22,4 @@ for i=n:-1:1
 end
 disp('The Solution of given System Using gauss Elmination Method');
 disp(x);
-end
+end 
