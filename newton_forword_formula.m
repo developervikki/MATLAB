@@ -27,3 +27,4 @@ for j = 1:n-1
 end
 
 fprintf('Interpolated value at x = %.2f is %.4f\n', x_interpolate, interpolated_value);
+ 
