@@ -4,4 +4,4 @@ plot(t,z);
 grid on;
 xlabel('Time');
 ylabel('Amplitude');
-title('Damped cosine wave');
+title('Damped cosine wave'); 
