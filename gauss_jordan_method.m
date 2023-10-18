@@ -1,4 +1,4 @@
-function[]=gauss_jordan_method()
+ function[]=gauss_jordan_method()
 clc;
 clear all;
 n=input('Enter ther no. of variabls');
