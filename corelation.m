@@ -22,5 +22,5 @@ y=xcorr(x,h);
 subplot(4,1,4);
 stem(y);
 title('Croscorelation');
-xlabel('time');
+xlabel('time'); 
 ylabel('Amplitude');
