@@ -21,3 +21,4 @@ title('Impulse Response h[n]');
 subplot(3,1,3);
 stem(y, 'g', 'LineWidth', 1.5);
 title('Convolution Result y[n]');
+ 
