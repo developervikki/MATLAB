@@ -36,3 +36,4 @@ end
 if iterations >= maxIterations
     fprintf('Newton-Raphson method did not converge within %d iterations.\n', maxIterations);
 end
+ 
