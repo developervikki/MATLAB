@@ -15,7 +15,7 @@ if(r<1)
     
 elseif(r==1)
     subplot(3,1,1);
-    plot(n,y1);
+    plot(n,y1); 
     xlabel('Sample no.');
     ylabel('Amplitude');
     title('r^-^n when r=1');
