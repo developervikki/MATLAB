@@ -15,3 +15,4 @@ title('cos discrete wave');
 xlabel('time');
 ylabel('amplitude');
 
+  
