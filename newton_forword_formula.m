@@ -6,7 +6,7 @@ x_interpolate = 2.5;
 n = length(x);
 f = zeros(n, n);
 
-f(:, 1) = y';
+f(:, 1) = y'; 
 
 for j = 2:n
     for i = 1:n-j+1
