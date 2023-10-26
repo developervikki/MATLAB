@@ -11,7 +11,7 @@ function quadratic_bisection()
     max_iterations = input('Enter maximum number of iterations: ');
  
     if sign(polyval([a, b, c], left_endpoint)) * sign(polyval([a, b, c], right_endpoint)) > 0
-        fprintf('The chosen interval does not contain a root.\n');
+        fprintf('The chosen interval does not contain a root.\n'); 
         return;
     end
 
