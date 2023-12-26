@@ -15,3 +15,4 @@ title('Magnitude of Z-Transform');
 subplot(2, 1, 2); 
 freqz(double(angle(X))); 
 title('Phase of Z-Transform');
+ 
