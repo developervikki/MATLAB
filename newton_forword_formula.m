@@ -1,6 +1,5 @@
-x=input
-x = [0, 1, 2, 3, 4];
-y = [1, 2, 5, 10, 17];
+x=input('Enter the Matrix first');
+y=input('Enter the second Matrix ');
 
 x_interpolate = 2.5;
 
