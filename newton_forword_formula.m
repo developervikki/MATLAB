@@ -1,3 +1,4 @@
+x=input
 x = [0, 1, 2, 3, 4];
 y = [1, 2, 5, 10, 17];
 
@@ -15,7 +16,7 @@ for j = 2:n
 end
 
 interpolated_value = f(1, 1);
-
+ 
 u = (x_interpolate - x(1)) / (x(2) - x(1));
 coefficients = [1];
 for j = 2:n
