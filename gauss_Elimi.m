@@ -17,7 +17,7 @@ for i=n:-1:1
     s=0;
     for j=i+1:1:n
         s=s+A(i,j)*x(j);
-    end
+    end 
     x(i)=(A(i,n+1)-s)/A(i,i)
 end
 disp('The Solution of given System Using gauss Elmination Method');
