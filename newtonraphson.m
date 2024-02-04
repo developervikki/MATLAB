@@ -6,7 +6,7 @@ f(x) = x^3 - 4*x^2 + 4*x - 6;
 x0 = 2;
 
 % Set the maximum number of iterations and tolerance for convergence
-maxIterations = 100;
+maxIterations = 100; 
 tolerance = 1e-6;
 
 % Initialize variables
