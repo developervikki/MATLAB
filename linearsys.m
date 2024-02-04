@@ -11,7 +11,7 @@ t = 0:0.01:10; % Time from 0 to 10 seconds with a 0.01-second step
 y = step(sys, t);
 
 % Plot the step response
-plot(t, y);
+plot(t, y); 
 xlabel('Time (seconds)');
 ylabel('System Response');
 title('Step Response of a First-Order Linear System');
