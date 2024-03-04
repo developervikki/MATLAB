@@ -7,7 +7,7 @@ n = input('Enter the number of subintervals (must be even): ');
 f = @(x) x^2;
 
 % Check if n is even, and if not, increment it by 1
-if mod(n, 2) ~= 0
+if mod(n, 2) ~= 0 
     n = n + 1;
     fprintf('Number of subintervals adjusted to an even value: %d\n', n);
 end
