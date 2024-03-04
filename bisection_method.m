@@ -14,7 +14,7 @@ function quadratic_bisection()
         fprintf('The chosen interval does not contain a root.\n'); 
         return;
     end
-
+ 
     for iteration = 1:max_iterations
         midpoint = (left_endpoint + right_endpoint) / 2;
         f_midpoint = polyval([a, b, c], midpoint);
