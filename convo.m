@@ -5,7 +5,7 @@ h = [0.5, 0.5];
 % Perform convolution
 y = conv(x, h); 
 
-% Display the result
+% Display the result 
 disp('Convolution result:');
 disp(y);
 
