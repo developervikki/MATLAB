@@ -9,7 +9,7 @@ for j=1:1:n-1
         for k=1:1:(n+1)
             A(i,k)=A(i,k)-t*A(j,k)
         end
-    end
+    end 
 end
 disp('The augmented Matrix become');
 disp(A);
