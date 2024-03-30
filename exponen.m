@@ -4,4 +4,4 @@ b=input('Enter  the value of b: ');
 xn=b.^n;
 subplot(2,2,2);
 stem(n,xn); 
-title("Discrete exponential signal");
+title("Discrete exponential signal"); 
