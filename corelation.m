@@ -19,7 +19,7 @@ title('Autocorelation');
 xlabel('Time');
 ylabel('Amplitude');
 y=xcorr(x,h);
-subplot(4,1,4);
+subplot(4,1,4); 
 stem(y);
 title('Croscorelation');
 xlabel('time'); 
