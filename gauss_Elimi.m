@@ -4,7 +4,7 @@ clear all;
 n=input('Enter the number of equations: ');
 A=input('Enter the elements of augmented matrix: ');
 for j=1:1:n-1
-    for i=j+1:1:n
+    for i=j+1:1:n 
         t=A(i,j)/A(j,j);
         for k=1:1:(n+1)  
             A(i,k)=A(i,k)-t*A(j,k)
