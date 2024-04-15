@@ -16,7 +16,7 @@ function quadratic_bisection()
     end
  
     for iteration = 1:max_iterations
-        midpoint = (left_endpoint + right_endpoint) / 2;
+        midpoint = (left_endpoint + right_endpoint) / 2; 
         f_midpoint = polyval([a, b, c], midpoint);
 
         if abs(f_midpoint) < tolerance
