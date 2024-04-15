@@ -13,7 +13,7 @@ function quadratic_bisection()
     if sign(polyval([a, b, c], left_endpoint)) * sign(polyval([a, b, c], right_endpoint)) > 0
         fprintf('The chosen interval does not contain a root.\n'); 
         return;
-    end
+    end 
  
     for iteration = 1:max_iterations
         midpoint = (left_endpoint + right_endpoint) / 2; 
