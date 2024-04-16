@@ -7,7 +7,7 @@ function quadratic_bisection()
     right_endpoint = input('Enter right endpoint of the interval: ');
 
     tolerance = input('Enter tolerance level (e.g., 1e-6): ');
-
+ 
     max_iterations = input('Enter maximum number of iterations: ');
  
     if sign(polyval([a, b, c], left_endpoint)) * sign(polyval([a, b, c], right_endpoint)) > 0
