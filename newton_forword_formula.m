@@ -9,7 +9,7 @@ f = zeros(n, n);
 f(:, 1) = y'; 
 
 for j = 2:n
-    for i = 1:n-j+1
+    for i = 1:n-j+1 
         f(i, j) = f(i+1, j-1) - f(i, j-1);
     end
 end
