@@ -8,7 +8,7 @@ ylabel('Amplitude');
 title('Definition of x');
 h=[4 3 2 1];
 subplot(4,1,2);
-stem(h);
+stem(h); 
 title('Definition of h');
 xlabel('Time');
 ylabel('Amplitude');
