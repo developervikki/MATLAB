@@ -4,7 +4,7 @@ subplot (3,1,1);
 stem (nx, x);
 grid on;
 title ('Input sequence');
-xlabel('Time');
+xlabel('Time'); 
 ylabel('amplitude');
 h=input ('Enter the value of h:');
 nh=0:2; 
