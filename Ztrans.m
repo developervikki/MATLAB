@@ -1,6 +1,6 @@
  
 n = 0:50;  
-x = 0.8.^n; % Define the signal, e.g., x(n) = 0.8^n
+x = 0.8.^n; % Define the signal, e.g., x(n) = 0.8^n 
  
 
 syms z n;   
