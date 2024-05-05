@@ -1,5 +1,5 @@
 function quadratic_bisection()
-    a = input('Enter coefficient a: '); 
+    a = input('Enter coefficient a: ');  
     b = input('Enter coefficient b: ');
     c = input('Enter coefficient c: ');
 
