@@ -3,7 +3,7 @@ x = [1, 2, 3, 4];
 h = [0.5, 0.5];
 
 % Perform convolution
-y = conv(x, h); 
+y = conv(x, h);  
 
 % Display the result  
 disp('Convolution result:');
