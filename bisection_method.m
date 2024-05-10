@@ -6,7 +6,7 @@ function quadratic_bisection()
     left_endpoint = input('Enter left endpoint of the interval: ');
     right_endpoint = input('Enter right endpoint of the interval: ');
 
-    tolerance = input('Enter tolerance level (e.g., 1e-6): ');
+    tolerance = input('Enter tolerance level (e.g., 1e-6): '); 
   
     max_iterations = input('Enter maximum number of iterations: ');
  
