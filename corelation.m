@@ -5,7 +5,7 @@ x=[1 2 3 4];
 subplot(4,1,1);
 xlabel('TIme');
 ylabel('Amplitude');
-title('Definition of x');
+title('Definition of x'); 
 h=[4 3 2 1];
 subplot(4,1,2);
 stem(h); 
