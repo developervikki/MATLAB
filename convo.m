@@ -6,7 +6,7 @@ h = [0.5, 0.5];
 y = conv(x, h);  
 
 % Display the result  
-disp('Convolution result:');
+disp('Convolution result:'); 
 disp(y);
 
 % Plot the input and output sequences
