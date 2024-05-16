@@ -3,7 +3,7 @@ function quadratic_bisection()
     b = input('Enter coefficient b: '); 
     c = input('Enter coefficient c: ');
 
-    left_endpoint = input('Enter left endpoint of the interval: ');
+    left_endpoint = input('Enter left endpoint of the interval: '); 
     right_endpoint = input('Enter right endpoint of the interval: ');
 
     tolerance = input('Enter tolerance level (e.g., 1e-6): '); 
