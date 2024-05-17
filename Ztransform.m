@@ -1,7 +1,7 @@
 clc;
 clear all; 
 n=0:.1:100;
-r=input('Enter the r: ');
+r=input('Enter the r: '); 
 w=pi/4;     
 y1=r.^(-n); 
 y2=cos(w*n);  
