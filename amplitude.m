@@ -10,5 +10,5 @@ Ac=2;
 fc=50; 
 ct=Ac*cos(2*pi*fc*t);
 St=(1+ka.*mt).*ct;
-subplot(3,1,1);
+subplot(3,1,1); 
 plot(t,mt); 
