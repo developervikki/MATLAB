@@ -6,7 +6,7 @@ w=pi/4;
 y1=r.^(-n);  
 y2=cos(w*n);   
 y=y1*y2;  
-if(r<1)
+if(r<1) 
     subplot(3,1,1);
     plot(n,y1);    
     xlabel('Sample no.');
