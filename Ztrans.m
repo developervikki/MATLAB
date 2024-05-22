@@ -7,7 +7,7 @@ syms z n;
 X = ztrans(x, n, z); % Compute the Z-transform of x(n)  
 
  
-figure; 
+figure;  
 subplot(2, 1, 1);
 freqz(double(abs(X)))
 title('Magnitude of Z-Transform');
