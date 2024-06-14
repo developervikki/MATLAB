@@ -1,4 +1,4 @@
-function quadratic_bisection() 
+function quadratic_bisection()  
     a = input('Enter coefficient a: ');  
     b = input('Enter coefficient b: '); 
     c = input('Enter coefficient c: ');
