@@ -1,7 +1,7 @@
  function quadratic_bisection()  
     a = input('Enter coefficient a: ');  
     b = input('Enter coefficient b: '); 
-    c = input('Enter coefficient c: ');
+     c = input('Enter coefficient c: ');
 
     left_endpoint = input('Enter left endpoint of the interval: '); 
     right_endpoint = input('Enter right endpoint of the interval: ');
