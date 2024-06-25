@@ -1,7 +1,7 @@
 clc
 clear
 close all;
-ka=0.8;
+ka=0.8; 
 Am=1; 
 fm=2;  
 t=0:0.001:1;
