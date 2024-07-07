@@ -1,6 +1,6 @@
 % Define two input sequences
 x = [1, 2, 3, 4];
-h = [0.5, 0.5]; 
+h = [0.5, 0.5];  
 
 % Perform convolution
 y = conv(x, h);  
