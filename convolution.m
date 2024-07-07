@@ -1,5 +1,5 @@
 x=input ('Enter the value of x:');
-nx=0:1;
+nx=0:1; 
 subplot (3,1,1);
 stem (nx, x);
 grid on;
