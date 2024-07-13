@@ -1,5 +1,5 @@
 clc;
-clear all;     
+clear all;      
 n=0:.1:100; 
 r=input('Enter the r: ');  
 w=pi/4;      
