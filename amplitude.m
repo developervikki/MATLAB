@@ -1,4 +1,4 @@
- clc
+ 6 clc
 clear
 close all;
 ka=0.8; 
