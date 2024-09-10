@@ -1,4 +1,4 @@
- clc;         
+ clc;          
 clear all;            
 n=0:.1:100;  
 r=input('Enter the r: ');  
