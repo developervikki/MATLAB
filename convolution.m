@@ -3,7 +3,7 @@ nx=0:1;
 subplot (3,1,1);
 stem (nx, x);
 grid on;
-title ('Input sequence');
+title ('Input sequence'); 
 xlabel('Time');  
 ylabel('amplitude');
 h=input ('Enter the value of h:'); 
