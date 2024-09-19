@@ -1,5 +1,5 @@
  clc
-clear
+clear 
 close all;
 ka=0.8; 
 Am=1;  
