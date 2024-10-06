@@ -11,7 +11,7 @@ title('cos continuous wave');
 xlabel('time');
 
 ylabel('amplitude');
-
+ 
 
 
 t=0:0.01:5;
