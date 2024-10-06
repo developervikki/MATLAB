@@ -1,4 +1,4 @@
-% Define two input sequences
+% Define two input sequences 
 x = [1, 2, 3, 4]; 
 h = [0.5, 0.5];   
 
