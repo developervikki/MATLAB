@@ -1,4 +1,4 @@
-clear all;
+clear all; 
 close all;
 clc;
 x=[1 2 3 4];
